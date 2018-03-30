@@ -57,7 +57,7 @@ public class SendMail {
 		message.setFrom(new InternetAddress("1010098203@qq.com"));
 		// 指明邮件的收件人，现在发件人和收件人是一样的，那就是自己给自己发
 		message.setRecipient(Message.RecipientType.TO, new InternetAddress("1010098203@qq.com"));
-		// 邮件的标题
+		// 邮件的标题1
 		message.setSubject("JavaMail测试");
 		// 邮件的文本内容
 		message.setContent("JavaMail234255！", "text/html;charset=UTF-8");
