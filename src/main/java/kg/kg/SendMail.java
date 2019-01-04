@@ -26,7 +26,6 @@ public class SendMail {
 		prop.setProperty("mail.smtp.auth", "true");
 		// 发送邮件协议名称
 		prop.setProperty("mail.transport.protocol", "smtp");
-
 		// 开启SSL加密，否则会失败
 		MailSSLSocketFactory sf = new MailSSLSocketFactory();
 		sf.setTrustAllHosts(true);
